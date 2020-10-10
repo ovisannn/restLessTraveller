@@ -1,4 +1,4 @@
-$("document.onload").ready(function(){
+$("document").ready(function(){
     $(".navbar__ham").on("click", function(){
       $(".navbar__links").toggleClass("active");  
     });
