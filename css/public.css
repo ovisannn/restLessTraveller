@@ -11,6 +11,10 @@ article{
     text-align: center;
 }
 
+.head h6{
+    font-size: 15px;
+    top: 0px;
+}
 kosong2{
     width: 10%;
     height: auto;
@@ -115,13 +119,64 @@ ul.topnav {
     top: 0;
     width: 100%;
 }
-
-
-  ul.topnav li a:hover:not(.active) {background-color: #111;}
-  
-  ul.topnav li a.active {background-color: #4CAF50;}
-  
-  ul.topnav li.right {float: right;}
+/*Kuliner*/
+.container{
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    background-color: none;
+    padding: 75px 200px;
+    background-color: black;
+    top: 0px;
+}
+.container img {
+    float: left;
+}
+.container p{
+    position: absolute;
+    color: White;
+    font-size: 35px;
+    transform: translate(25px, 190px);
+}
+.kotak {
+    width: 300px;
+    height: 87px;
+    background-color:grey;
+    color:white;
+    margin-bottom: 10px;
+    margin-left: 520px;
+    float: none;
+}
+/*Footer*/
+.footer{
+    width: 100%;
+    background-color:#1C2A34;
+    columns: #000000;;
+    height: 260px;
+    line-height: 200px;
+    bottom: 0px;
+}
+.isian{
+    text-align: center;
+    font-style: bold;
+    padding-right: 100PX;
+    margin: -40px 50px;
+    float: left;
+    font-size:20px;
+    color: white;
+}
+hr{
+    width: 850px;
+    background-color: white;
+}
+.copy{
+    font-size: 15px;
+    text-align: center;
+    clear: both;
+    color: white;
+    height: 0px;
+    background-color: black;
+}
 
   @media (max-width: 600px) {
     nav, article {
