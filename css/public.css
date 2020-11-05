@@ -114,6 +114,13 @@ ul.topnav {
     text-decoration: none;
   }
 
+
+  ul.topnav li a:hover:not(.active) {background-color: #111;}
+  
+  ul.topnav li a.active {background-color: #4CAF50;}
+  
+  ul.topnav li.right {float: right;}
+
 .diam{
     position: fixed;
     top: 0;
@@ -177,7 +184,7 @@ hr{
     height: 0px;
     background-color: black;
 }
-
+/*responsive*/
   @media (max-width: 600px) {
     nav, article {
       width: 100%;
